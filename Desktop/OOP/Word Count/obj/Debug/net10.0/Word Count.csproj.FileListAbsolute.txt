@@ -1,0 +1,14 @@
+/Users/bishnugiri/Desktop/OOP/Word Count/obj/Debug/net10.0/Word Count.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bishnugiri/Desktop/OOP/Word Count/obj/Debug/net10.0/Word Count.AssemblyInfoInputs.cache
+/Users/bishnugiri/Desktop/OOP/Word Count/obj/Debug/net10.0/Word Count.AssemblyInfo.cs
+/Users/bishnugiri/Desktop/OOP/Word Count/obj/Debug/net10.0/Word Count.csproj.CoreCompileInputs.cache
+/Users/bishnugiri/Desktop/OOP/Word Count/bin/Debug/net10.0/Word Count
+/Users/bishnugiri/Desktop/OOP/Word Count/bin/Debug/net10.0/Word Count.deps.json
+/Users/bishnugiri/Desktop/OOP/Word Count/bin/Debug/net10.0/Word Count.runtimeconfig.json
+/Users/bishnugiri/Desktop/OOP/Word Count/bin/Debug/net10.0/Word Count.dll
+/Users/bishnugiri/Desktop/OOP/Word Count/bin/Debug/net10.0/Word Count.pdb
+/Users/bishnugiri/Desktop/OOP/Word Count/obj/Debug/net10.0/Word Count.dll
+/Users/bishnugiri/Desktop/OOP/Word Count/obj/Debug/net10.0/refint/Word Count.dll
+/Users/bishnugiri/Desktop/OOP/Word Count/obj/Debug/net10.0/Word Count.pdb
+/Users/bishnugiri/Desktop/OOP/Word Count/obj/Debug/net10.0/Word Count.genruntimeconfig.cache
+/Users/bishnugiri/Desktop/OOP/Word Count/obj/Debug/net10.0/ref/Word Count.dll
