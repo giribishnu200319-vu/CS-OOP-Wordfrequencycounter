@@ -15,7 +15,23 @@ namespace WordFrequencyCounter
                 Console.WriteLine("Folder not found!");
                 return;
             }
-
+            // ── Get N and M from user ────────────────────────
+            Console.Write("Enter N (min word length to trim): ");
+            string? inputN = Console.ReadLine();
+            if (!int.TryParse(inputN, out int n))
+            {
+                Console.WriteLine("Invalid input for N.");
+                return;
+            }
+ 
+            Console.Write("Enter M (characters to remove from end): ");
+            string? inputM = Console.ReadLine();
+            if (!int.TryParse(inputM, out int m))
+            {
+                Console.WriteLine("Invalid input for M.");
+                return;
+            }
+            
             FileReader reader = new FileReader(folderPath);
             string[] files = reader.GetAllTxtFiles();
 
@@ -27,19 +43,22 @@ namespace WordFrequencyCounter
 
             Console.WriteLine("\nFound " + files.Length + " file(s).\n");
 
-            WordSplitter splitter = new WordSplitter();
+            TextProcessor processor = new TextProcessor(n, m);
+            // WordSplitter splitter = new WordSplitter();
             WordCounter counter = new WordCounter();
 
             foreach (string file in files)
             {
                 Console.WriteLine("Reading: " + Path.GetFileName(file));
                 string content = reader.ReadFile(file);
-                string[] words = splitter.SplitIntoWords(content);
-                counter.CountWords(words);
+                // string[] words = splitter.SplitIntoWords(content);
+                var words = processor.GetProcessedWords(content);
+                counter.CountWords(words.ToArray());
             }
 
             ResultPrinter printer = new ResultPrinter();
             printer.PrintResults(counter.GetWordCounts());
         }
     }
+
 }

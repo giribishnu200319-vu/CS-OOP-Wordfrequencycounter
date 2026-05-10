@@ -12,3 +12,4 @@
 /Users/bishnugiri/Desktop/OOP/Word Count/obj/Debug/net10.0/Word Count.pdb
 /Users/bishnugiri/Desktop/OOP/Word Count/obj/Debug/net10.0/Word Count.genruntimeconfig.cache
 /Users/bishnugiri/Desktop/OOP/Word Count/obj/Debug/net10.0/ref/Word Count.dll
+/Users/bishnugiri/Desktop/OOP/Word Count/obj/Debug/net10.0/Word Count.sourcelink.json
